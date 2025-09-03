@@ -66,11 +66,11 @@ Me.RestoreTreeState(Me.treeViewAdv1, dic)
 
 'Saves TreeViewAdv.
 Public Function SaveTreeState(ByVal tree As TreeViewAdv) As Dictionary(Of String, Boolean)
-  Dim nodeStates As New Dictionary(Of String, Boolean)()
-  For Each node As TreeNodeAdv In Collect(tree.Nodes)
-       nodeStates.Add(node.Text, node.Expanded)
-  Next node
-  Return nodeStates
+   Dim nodeStates As New Dictionary(Of String, Boolean)()
+   For Each node As TreeNodeAdv In Collect(tree.Nodes)
+      nodeStates.Add(node.Text, node.Expanded)
+   Next node
+   Return nodeStates
 End Function
 
 'Loads TreeViewAdv
