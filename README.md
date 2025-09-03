@@ -7,7 +7,7 @@ In [WinForms TreeViewAdv](https://www.syncfusion.com/winforms-ui-controls/treevi
 
 **C#**
 
-```C#
+```csharp
 //Initializes the collection
 Dictionary<string, bool> dic = new Dictionary<string, bool>();
 
@@ -54,7 +54,7 @@ IEnumerable<TreeNodeAdv> Collect(TreeNodeAdvCollection nodes)
 
 **VB.Net**
 
-```VB
+```vbnet
 'Initializes the collection
 Private dic As New Dictionary(Of String, Boolean)()
 
